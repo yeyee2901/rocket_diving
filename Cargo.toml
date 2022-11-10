@@ -3,3 +3,6 @@ members = [
     "first_gateway",
     "second_gateway",
 ]
+
+[workspace.dependencies]
+rocket = "0.5.0-rc.2"
