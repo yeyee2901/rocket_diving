@@ -1,0 +1,17 @@
+[package]
+name = "book_example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "book_example"
+path = "src/lib.rs"
+
+[[bin]]
+name = "book_example"
+path = "src/main.rs"
+
+[dependencies]
+rocket = { workspace = true }
+serde = { workspace = true }

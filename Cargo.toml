@@ -1,8 +1,9 @@
 [workspace]
 members = [
     "first_gateway",
-    "second_gateway",
+    "book_example",
 ]
 
 [workspace.dependencies]
-rocket = "0.5.0-rc.2"
+rocket = { version = "0.5.0-rc.2", features = ["json"] }
+serde = "1.0"
